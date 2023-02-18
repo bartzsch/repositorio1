@@ -1,0 +1,56 @@
+
+body{
+
+
+grid-template-columns: auto;
+}
+
+nav,header,aside,section,footer{
+    border-radius: 10px;
+}
+
+nav{
+background-color: purple ;
+grid-area:nav;
+}
+
+header {
+background-color: green ;
+grid-area:header;
+}
+
+aside{
+background-color: indianred;
+grid-area:aside;
+}
+
+section{
+background-color: blueviolet;
+grid-area:section;
+}
+
+
+footer{
+background-color: khaki;
+grid-area:footer;
+}
+
+.grid.container{
+    display:grid;
+    padding:10px;
+grid-template-areas:
+'nav nav nav nav nav nav'
+'header header header header aside aside'
+'header header header header aside aside'
+'section section section section aside aside'
+'section section section section aside aside'
+'footer footer footer footer footer footer'
+;
+
+
+
+
+
+
+
+}
